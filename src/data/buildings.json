@@ -1,0 +1,13 @@
+[
+  { "id": "red-square", "name": "Red Square", "lat": 47.65605, "lng": -122.30945 },
+  { "id": "kane", "name": "Kane Hall", "lat": 47.65665, "lng": -122.30905 },
+  { "id": "mgh", "name": "Mary Gates Hall", "lat": 47.65495, "lng": -122.30780 },
+  { "id": "suzzallo", "name": "Suzzallo Library", "lat": 47.65575, "lng": -122.30805 },
+  { "id": "odegaard", "name": "Odegaard Library", "lat": 47.65640, "lng": -122.31035 },
+  { "id": "hub", "name": "Husky Union Building", "lat": 47.65530, "lng": -122.30505 },
+  { "id": "cse", "name": "Paul G. Allen Center (CSE)", "lat": 47.65335, "lng": -122.30580 },
+  { "id": "ece", "name": "ECE Building", "lat": 47.65360, "lng": -122.30620 },
+  { "id": "bagley", "name": "Bagley Hall", "lat": 47.65325, "lng": -122.30895 },
+  { "id": "paccar", "name": "PACCAR Hall", "lat": 47.65900, "lng": -122.30870 },
+  { "id": "hsc", "name": "Health Sciences Center", "lat": 47.64990, "lng": -122.30870 }
+]
