@@ -16,7 +16,7 @@ export default function SpotDetail({ spot, originLabel, onBack }) {
       <div>
         <h2 className="text-xl font-semibold">{spot.name}</h2>
         <p className="text-sm text-gray-500">
-          {spot.building} · {formatMiles(spot.distance)} ({walkMinutes(spot.distance)} min walk from {originLabel})
+          {spot.building !== spot.name && `${spot.building} · `}{formatMiles(spot.distance)} ({walkMinutes(spot.distance)} min walk from {originLabel})
         </p>
         <span
           className={

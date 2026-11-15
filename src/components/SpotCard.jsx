@@ -35,7 +35,7 @@ export default function SpotCard({ spot, selected, onSelect, onOpen }) {
       <div className="min-w-0">
         <div className="truncate text-sm font-semibold">{spot.name}</div>
         <div className="text-xs text-gray-500">
-          {spot.building} · {formatMiles(spot.distance)}
+          {spot.building !== spot.name && `${spot.building} · `}{formatMiles(spot.distance)}
         </div>
         <div className="mt-0.5 text-xs text-gray-700">{spotTags(spot).join(' · ')}</div>
         <div className={'mt-0.5 text-xs font-semibold ' + (open ? 'text-black' : 'text-gray-400')}>

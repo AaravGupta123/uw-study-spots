@@ -1,7 +1,7 @@
 [
   {
     "id": "suzzallo-reading-room",
-    "name": "Suzzallo Reading Room",
+    "name": "Suzzallo Library",
     "building": "Suzzallo Library",
     "lat": 47.65575,
     "lng": -122.30805,
@@ -34,7 +34,7 @@
   },
   {
     "id": "odegaard-group-tables",
-    "name": "Odegaard Group Tables",
+    "name": "Odegaard Library",
     "building": "Odegaard Library",
     "lat": 47.6564,
     "lng": -122.31035,
@@ -72,7 +72,7 @@
   },
   {
     "id": "hub-lower-lounge",
-    "name": "HUB Lower Lounge",
+    "name": "HUB",
     "building": "Husky Union Building",
     "lat": 47.6553,
     "lng": -122.30505,
@@ -102,7 +102,7 @@
   },
   {
     "id": "allen-carrels",
-    "name": "Allen Library Study Carrels",
+    "name": "Allen Library",
     "building": "Allen Library",
     "lat": 47.65595,
     "lng": -122.3072,
@@ -164,7 +164,7 @@
   },
   {
     "id": "allen-center-atrium",
-    "name": "Allen Center Atrium",
+    "name": "Allen Center (CSE)",
     "building": "Paul G. Allen Center",
     "lat": 47.65335,
     "lng": -122.3058,
@@ -175,21 +175,22 @@
     "seating": "Atrium tables and benches",
     "amenities": [
       "Wi-Fi",
-      "Cafe nearby"
+      "Cafe nearby",
+      "Card access after hours"
     ],
     "hours": {
       "weekday": [
-        "07:00",
-        "22:00"
+        "08:00",
+        "19:00"
       ],
       "sat": null,
       "sun": null
     },
-    "lastVerified": null
+    "lastVerified": "2026-11-15"
   },
   {
     "id": "gates-center-commons",
-    "name": "Gates Center Commons",
+    "name": "Gates Center (CSE2)",
     "building": "Bill & Melinda Gates Center",
     "lat": 47.65305,
     "lng": -122.305,
@@ -200,21 +201,22 @@
     "seating": "Open tables and lounge chairs",
     "amenities": [
       "Wi-Fi",
-      "Whiteboards"
+      "Whiteboards",
+      "Card access after hours"
     ],
     "hours": {
       "weekday": [
-        "07:00",
-        "22:00"
+        "08:00",
+        "19:00"
       ],
       "sat": null,
       "sun": null
     },
-    "lastVerified": null
+    "lastVerified": "2026-11-15"
   },
   {
     "id": "ece-lobby",
-    "name": "ECE Building Lobby",
+    "name": "ECE Building",
     "building": "Electrical & Computer Engineering",
     "lat": 47.6536,
     "lng": -122.3062,
@@ -225,7 +227,8 @@
     "seating": "Lobby tables",
     "amenities": [
       "Wi-Fi",
-      "Vending machines"
+      "Vending machines",
+      "Card access after hours"
     ],
     "hours": {
       "weekday": [
@@ -235,7 +238,7 @@
       "sat": null,
       "sun": null
     },
-    "lastVerified": null
+    "lastVerified": "2026-11-15"
   },
   {
     "id": "health-sciences-library",
@@ -305,7 +308,7 @@
   },
   {
     "id": "mgh-commons",
-    "name": "Mary Gates Hall Commons",
+    "name": "Mary Gates Hall",
     "building": "Mary Gates Hall",
     "lat": 47.65495,
     "lng": -122.3078,
