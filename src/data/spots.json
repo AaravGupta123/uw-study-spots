@@ -30,7 +30,13 @@
         "20:00"
       ]
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Suzzallo_Reading_Room_University_of_Washington_restoration_Seattle_Washington_2026.jpg/960px-Suzzallo_Reading_Room_University_of_Washington_restoration_Seattle_Washington_2026.jpg",
+      "author": "Guywelch2000",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Suzzallo_Reading_Room_University_of_Washington_restoration_Seattle_Washington_2026.jpg"
+    }
   },
   {
     "id": "odegaard-group-tables",
@@ -68,7 +74,13 @@
         "24:00"
       ]
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/University_of_Washington_-_Odegaard_Undergraduate_Library_01.jpg/960px-University_of_Washington_-_Odegaard_Undergraduate_Library_01.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:University_of_Washington_-_Odegaard_Undergraduate_Library_01.jpg"
+    }
   },
   {
     "id": "hub-lower-lounge",
@@ -98,7 +110,13 @@
       ],
       "sun": null
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Husky_Union_Building_01_%28cropped%29.jpg/960px-Husky_Union_Building_01_%28cropped%29.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Husky_Union_Building_01_%28cropped%29.jpg"
+    }
   },
   {
     "id": "allen-carrels",
@@ -130,7 +148,13 @@
         "20:00"
       ]
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/University_of_Washington_-_Allen_Library_01.jpg/960px-University_of_Washington_-_Allen_Library_01.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:University_of_Washington_-_Allen_Library_01.jpg"
+    }
   },
   {
     "id": "engineering-library",
@@ -160,7 +184,8 @@
       "sat": null,
       "sun": null
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": null
   },
   {
     "id": "allen-center-atrium",
@@ -186,7 +211,13 @@
       "sat": null,
       "sun": null
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Paul_G._Allen_Center_for_Computer_Science_%26_Engineering.jpg/960px-The_Paul_G._Allen_Center_for_Computer_Science_%26_Engineering.jpg",
+      "author": "Corsario CL",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Paul_G._Allen_Center_for_Computer_Science_%26_Engineering.jpg"
+    }
   },
   {
     "id": "gates-center-commons",
@@ -212,7 +243,13 @@
       "sat": null,
       "sun": null
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/University_of_Washington_-_Bill_and_Melinda_Gates_Center_for_CSE_01.jpg/960px-University_of_Washington_-_Bill_and_Melinda_Gates_Center_for_CSE_01.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:University_of_Washington_-_Bill_and_Melinda_Gates_Center_for_CSE_01.jpg"
+    }
   },
   {
     "id": "ece-lobby",
@@ -238,7 +275,13 @@
       "sat": null,
       "sun": null
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/MK03256_University_of_Washington_Electrical_Engineering_Building.jpg/960px-MK03256_University_of_Washington_Electrical_Engineering_Building.jpg",
+      "author": "Martin Kraft",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MK03256_University_of_Washington_Electrical_Engineering_Building.jpg"
+    }
   },
   {
     "id": "health-sciences-library",
@@ -271,7 +314,13 @@
         "17:00"
       ]
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/20251022_133056_Magnuson_Health_Sciences_Center.jpg/960px-20251022_133056_Magnuson_Health_Sciences_Center.jpg",
+      "author": "Gayest Frogs",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:20251022_133056_Magnuson_Health_Sciences_Center.jpg"
+    }
   },
   {
     "id": "foster-library",
@@ -304,7 +353,13 @@
         "20:00"
       ]
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Paccar_Hall_during_Fall_Quarter.jpg/960px-Paccar_Hall_during_Fall_Quarter.jpg",
+      "author": "Fbwcpsh",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paccar_Hall_during_Fall_Quarter.jpg"
+    }
   },
   {
     "id": "mgh-commons",
@@ -333,7 +388,13 @@
       ],
       "sun": null
     },
-    "lastVerified": null
+    "lastVerified": null,
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mary_Gates_Hall_at_the_UW_in_2006.jpg/960px-Mary_Gates_Hall_at_the_UW_in_2006.jpg",
+      "author": "Kables",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mary_Gates_Hall_at_the_UW_in_2006.jpg"
+    }
   },
   {
     "id": "music-library",
@@ -358,7 +419,13 @@
       "sat": null,
       "sun": null
     },
-    "lastVerified": "2026-11-15"
+    "lastVerified": "2026-11-15",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/20241101_143913_Music_Building_-_stairs.jpg/960px-20241101_143913_Music_Building_-_stairs.jpg",
+      "author": "Gayest Frogs",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:20241101_143913_Music_Building_-_stairs.jpg"
+    }
   },
   {
     "id": "liberal-arts-quad",
@@ -389,7 +456,13 @@
         "24:00"
       ]
     },
-    "lastVerified": null
+    "lastVerified": null,
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Liberal_Arts_Quadrangle%2C_University_of_Washington%2C_Seattle%2C_Washington.jpg/960px-Liberal_Arts_Quadrangle%2C_University_of_Washington%2C_Seattle%2C_Washington.jpg",
+      "author": "Ken Lund",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Liberal_Arts_Quadrangle%2C_University_of_Washington%2C_Seattle%2C_Washington.jpg"
+    }
   },
   {
     "id": "drumheller-benches",
@@ -420,7 +493,13 @@
         "24:00"
       ]
     },
-    "lastVerified": null
+    "lastVerified": null,
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/MK03243_University_of_Washington_Drumheller_Fountain.jpg/960px-MK03243_University_of_Washington_Drumheller_Fountain.jpg",
+      "author": "Martin Kraft",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MK03243_University_of_Washington_Drumheller_Fountain.jpg"
+    }
   },
   {
     "id": "hub-lawn-tables",
@@ -451,7 +530,13 @@
         "24:00"
       ]
     },
-    "lastVerified": null
+    "lastVerified": null,
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Husky_Union_Building_02.jpg/960px-Husky_Union_Building_02.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Husky_Union_Building_02.jpg"
+    }
   },
   {
     "id": "cafe-allegro",
@@ -482,6 +567,12 @@
         "18:00"
       ]
     },
-    "lastVerified": null
+    "lastVerified": null,
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Caf%C3%A9_Allegro_outside.jpg",
+      "author": "Bluerasberry",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Allegro_outside.jpg"
+    }
   }
 ]

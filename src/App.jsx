@@ -225,7 +225,8 @@ function About() {
       </p>
       <p className="text-xs text-gray-400">
         Built for the KTP project sprint. Spot data is collected by hand and may change; check the
-        "last verified" date on each spot.
+        "last verified" date on each spot. Photos are from Wikimedia Commons under Creative Commons
+        licenses, credited on each spot's page.
       </p>
     </div>
   )

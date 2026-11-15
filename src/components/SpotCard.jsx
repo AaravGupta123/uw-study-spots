@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { formatMiles, hoursLabel, isOpenNow } from '../lib/geo'
 
 const NOISE = { quiet: 'Quiet', moderate: 'Moderate', loud: 'Loud' }
@@ -11,11 +12,24 @@ export function spotTags(spot) {
   return tags
 }
 
-export function PhotoPlaceholder({ className = '' }) {
+// Shows the spot's photo, or a gray "No photo yet" box if there isn't one (or it fails to load)
+export function SpotPhoto({ spot, className = '' }) {
+  const [failed, setFailed] = useState(false)
+  if (!spot.photo || failed) {
+    return (
+      <div className={'flex items-center justify-center rounded bg-gray-200 text-center text-xs text-gray-500 ' + className}>
+        No photo yet
+      </div>
+    )
+  }
   return (
-    <div className={'flex items-center justify-center rounded bg-gray-200 text-xs text-gray-500 ' + className}>
-      Photo
-    </div>
+    <img
+      src={spot.photo.url}
+      alt={spot.name}
+      loading="lazy"
+      onError={() => setFailed(true)}
+      className={'rounded bg-gray-200 object-cover ' + className}
+    />
   )
 }
 
@@ -31,7 +45,7 @@ export default function SpotCard({ spot, selected, onSelect, onOpen }) {
         (selected ? 'border-black bg-gray-50' : 'border-gray-200 hover:border-gray-400')
       }
     >
-      <PhotoPlaceholder className="h-20 w-20 shrink-0" />
+      <SpotPhoto spot={spot} className="h-20 w-20 shrink-0" />
       <div className="min-w-0">
         <div className="truncate text-sm font-semibold">{spot.name}</div>
         <div className="text-xs text-gray-500">

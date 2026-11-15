@@ -1,5 +1,5 @@
 import { formatMiles, hoursLabel, isOpenNow, rangeLabel, walkMinutes } from '../lib/geo'
-import { PhotoPlaceholder, spotTags } from './SpotCard'
+import { SpotPhoto, spotTags } from './SpotCard'
 
 export default function SpotDetail({ spot, originLabel, onBack }) {
   const open = isOpenNow(spot.hours)
@@ -11,7 +11,18 @@ export default function SpotDetail({ spot, originLabel, onBack }) {
         ← Back to results
       </button>
 
-      <PhotoPlaceholder className="h-44 w-full" />
+      <div>
+        <SpotPhoto key={spot.id} spot={spot} className="h-52 w-full" />
+        {spot.photo && (
+          <p className="mt-1 text-[11px] text-gray-400">
+            Photo:{' '}
+            <a href={spot.photo.source} target="_blank" rel="noreferrer" className="underline hover:text-gray-600">
+              {spot.photo.author}
+            </a>
+            , {spot.photo.license}, via Wikimedia Commons
+          </p>
+        )}
+      </div>
 
       <div>
         <h2 className="text-xl font-semibold">{spot.name}</h2>
