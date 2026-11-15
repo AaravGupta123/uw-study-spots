@@ -66,19 +66,21 @@ export default function App() {
     ? filterSpots(spotsData, '', DEFAULT_FILTERS, origin).find((s) => s.id === detailId)
     : null
 
-  // Ask the browser for location. Falls back to Red Square if denied or off campus.
+  // Ask the browser for location. If that fails, keep the building the user picked
+  // (or Red Square if they hadn't picked one).
   async function locate() {
     setLocating(true)
     const loc = await getLocation()
     setLocating(false)
+    const keepBuilding = originId !== 'me'
+    const fallbackName = keepBuilding ? origin.label : 'Red Square'
+    if (!keepBuilding) setOriginId('red-square')
     if (!loc) {
-      setNotice('Location unavailable, so distances are measured from Red Square. Pick a building below to change that.')
-      setOriginId('red-square')
+      setNotice(`Location unavailable, so distances are measured from ${fallbackName}. Pick a building below to change that.`)
       return null
     }
     if (distanceMiles(loc, RED_SQUARE) > 2) {
-      setNotice("You look like you're off campus, so distances are measured from Red Square.")
-      setOriginId('red-square')
+      setNotice(`You look like you're off campus, so distances are measured from ${fallbackName}.`)
       return null
     }
     setNotice('')
@@ -88,7 +90,8 @@ export default function App() {
   }
 
   async function handleFindNow() {
-    const loc = (await locate()) ?? { ...RED_SQUARE, label: 'Red Square' }
+    const fallback = originId === 'me' ? { ...RED_SQUARE, label: 'Red Square' } : origin
+    const loc = (await locate()) ?? fallback
     const nextFilters = { ...filters, openNow: true }
     setFilters(nextFilters)
     setView('browse')

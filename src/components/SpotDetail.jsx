@@ -39,8 +39,19 @@ export default function SpotDetail({ spot, originLabel, onBack }) {
       <section>
         <h3 className="mb-1 text-sm font-semibold">Hours</h3>
         <dl className="grid grid-cols-[110px_1fr] gap-y-1 text-sm">
-          <dt className="text-gray-500">Mon to Fri</dt>
-          <dd>{rangeLabel(spot.hours.weekday)}</dd>
+          {'fri' in spot.hours ? (
+            <>
+              <dt className="text-gray-500">Mon to Thu</dt>
+              <dd>{rangeLabel(spot.hours.weekday)}</dd>
+              <dt className="text-gray-500">Friday</dt>
+              <dd>{rangeLabel(spot.hours.fri)}</dd>
+            </>
+          ) : (
+            <>
+              <dt className="text-gray-500">Mon to Fri</dt>
+              <dd>{rangeLabel(spot.hours.weekday)}</dd>
+            </>
+          )}
           <dt className="text-gray-500">Saturday</dt>
           <dd>{rangeLabel(spot.hours.sat)}</dd>
           <dt className="text-gray-500">Sunday</dt>

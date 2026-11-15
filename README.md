@@ -49,7 +49,13 @@ Each spot in `src/data/spots.json` looks like:
 }
 ```
 
-`null` hours means closed that day. The current data is sample data: hours and coordinates are approximate and need checking against the team's Google Sheet.
+Hours rules:
+- `null` means closed that day.
+- Add an optional `"fri"` entry when Friday differs from Mon to Thu.
+- A close time earlier than the open time means it closes after midnight: `["10:00", "02:00"]` is 10 am to 2 am.
+- `["00:00", "24:00"]` means open 24 hours.
+
+Library and HUB hours were checked against lib.uw.edu and hub.washington.edu on 2026-11-15 (they change at finals and breaks). Spots with `"lastVerified": null` still need someone to check them in person.
 
 ## Deploy
 
