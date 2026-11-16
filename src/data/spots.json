@@ -185,7 +185,9 @@
       "sun": null
     },
     "lastVerified": "2026-11-15",
-    "photo": null
+    "photo": {
+      "url": "/photos/engineering-library.jpg"
+    }
   },
   {
     "id": "allen-center-atrium",
@@ -421,10 +423,7 @@
     },
     "lastVerified": "2026-11-15",
     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/20241101_143913_Music_Building_-_stairs.jpg/960px-20241101_143913_Music_Building_-_stairs.jpg",
-      "author": "Gayest Frogs",
-      "license": "CC BY-SA 4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:20241101_143913_Music_Building_-_stairs.jpg"
+      "url": "/photos/music-library.jpg"
     }
   },
   {

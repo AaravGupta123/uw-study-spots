@@ -13,7 +13,7 @@ export default function SpotDetail({ spot, originLabel, onBack }) {
 
       <div>
         <SpotPhoto key={spot.id} spot={spot} className="h-52 w-full" />
-        {spot.photo && (
+        {spot.photo?.source && (
           <p className="mt-1 text-[11px] text-gray-400">
             Photo:{' '}
             <a href={spot.photo.source} target="_blank" rel="noreferrer" className="underline hover:text-gray-600">
